@@ -494,6 +494,9 @@ color: #000;
   z-index: 99999;
   text-decoration: none;
 }
+.mobile-test {
+  display: none;
+}
 .mobile-test span{
   display: none;
 }
@@ -524,6 +527,7 @@ color: #000;
     display: block;
   }
   .mobile-test{
+    display: block;
     position: absolute;
     left: 50%;
     top: 50%;
