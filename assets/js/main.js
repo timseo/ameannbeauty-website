@@ -1,5 +1,21 @@
 (function($) {
-    $('svg .path a').on('click', function (e) { 
+    $('svg .path a').on('mouseenter', function (e) { 
+        e.preventDefault();
+        $('.mobile-test .text'+$(this).data('text')).css({display:'block'}).addClass('active').siblings().attr('style','').removeClass('active');
+    });
+    $('svg .path a').on('mouseleave', function (e) { 
+        e.preventDefault();
+        $('.mobile-test .text'+$(this).data('text')).removeClass('active');
+    });
+    $('.mobile-test span').on('mouseenter', function (e) { 
+        e.preventDefault();
+        $('svg .path a[data-text="'+$(this).data('text')+'"]').addClass('active');
+    });
+    $('.mobile-test span').on('mouseleave', function (e) { 
+        e.preventDefault();
+        $('svg .path a[data-text="'+$(this).data('text')+'"]').removeClass('active');
+    });
+    $('svg .path a').on('click', function (e) {
         e.preventDefault();
         $('.mobile-test .text'+$(this).data('text')).css({display:'block'}).siblings().attr('style','');
         $('.process-step-section.modal').show();
