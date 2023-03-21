@@ -68,6 +68,7 @@
   left: 0;
   top: 7%;
   position: absolute;
+  pointer-events: none;
 }
 .header .desktop-nav .navbar-collapse .logo a{
   display: block;
@@ -482,6 +483,8 @@ color: #000;
 }
 .process-wheel-section .wheel{
   position: relative;
+  max-width: 700px;
+  margin: auto;
 }
 .process-wheel-section .wheel img{
   width: 100%;
@@ -1127,6 +1130,12 @@ max-width: 300px;
 }
 .hero-section img{
   width: 100%;
+  max-height: calc(100vh - 165px);
+  object-fit: cover;
+}
+.hero-section .btn:hover{
+  background-color: #000;
+  color: #fff;
 }
 .hero-section .learn{
   display: flex;
@@ -1160,14 +1169,19 @@ max-width: 300px;
   }
 }
 @media (max-width: 767px) {
+  .hero-section img{
+    min-height: 500px;
+    max-height: auto;
+  }
   .hero-section .learn{
     height: auto;
     position: absolute;
     width: 100%;
     padding: 8vw 0;
     border-bottom: 0;
-    bottom: calc(100% - 5px);
-    top:80%;
+    top: auto;
+    transform: none;
+    bottom: 0;
   }
   .hero-section .learn .content{
     max-width: 80vw;
