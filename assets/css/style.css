@@ -25,7 +25,7 @@
   src: url(../fonts/Crimson_Text/CrimsonText-Regular.ttf);
   font-weight: 400;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Red+Hat+Display:wght@300;500&display=swap');
 * {
   margin: 0px;
   padding: 0;
@@ -89,7 +89,6 @@
   color: #E68180;
 }
 .header .navbar-collapse .navbar-nav .nav-link.active{
-  font-style: italic;
   text-decoration: underline;
 }
 
@@ -166,7 +165,10 @@
   }
   .header .navbar .navbar-collapse .navbar-nav .nav-item {
     padding-right: 30px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+  }
+  li.nav-item a {
+    font-family: 'Italiana', serif;
   }
   .header .navbar .navbar-collapse .navbar-nav .nav-link {
     font-size: 20px;
