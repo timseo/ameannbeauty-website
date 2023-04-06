@@ -1285,3 +1285,11 @@ max-width: 300px;
   padding-right: 7%;
 }
 }
+
+.process-step-section .content a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.process-step-section .content a  p{
+  padding-top: 10px;
+}
