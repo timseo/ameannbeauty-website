@@ -590,7 +590,7 @@
 
 .process-wheel-section {
   padding: 50px 0 100px;
-  border-bottom: 1px solid #000;
+  border-bottom: 0px solid #000;
   background-color: var(--background-page-color);
 
   
@@ -1108,7 +1108,8 @@
 
 
 .about-article-section {
-  background-color: var(--background-page-color);
+  background-color: #ECE0D5;
+      margin-bottom: 3px;
   padding: 150px 0;
 }
 
@@ -1254,8 +1255,9 @@
   background-color: #FFF8F3;
 }
 
+
 .border1 {
-  border-top: 0px solid #000;
+  border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   padding: 10px 0;
   background-color: var(--background-page-color);
