@@ -286,6 +286,11 @@
   letter-spacing: 0.5px;
   background-color: #d4c4af;
 }
+.buttons .btn:hover {
+  background-color: #fff8f3;
+  color: #E68180;
+  border: 1px solid #E68180;
+}
 
 .home-section .items {
   padding: 45px 40px;
@@ -1451,8 +1456,8 @@
   bottom: 0;
   width: 100%;
   padding: 0 !important;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  margin-left: 8%;
+  margin-bottom: 15%;
 
 }
 
