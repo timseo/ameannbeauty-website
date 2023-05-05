@@ -1508,12 +1508,12 @@
   .hero-section .learn .content h2 {
     font-size: 4vw;
   }
-  .hero-section .web-video-banner {
-    display: none;
+   .web-video-banner {
+    display: none !important;
   }
 
-  .hero-section .mobile-video-banner {
-    display: block;
+   .mobile-video-banner {
+    display: block !important;
   }
 }
 
