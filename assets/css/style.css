@@ -1486,13 +1486,7 @@
     font-size: 28px;
   }
 
-  .hero-section .web-video-banner {
-    display: none;
-  }
 
-  .hero-section .mobile-video-banner {
-    display: block;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1513,6 +1507,13 @@
 
   .hero-section .learn .content h2 {
     font-size: 4vw;
+  }
+  .hero-section .web-video-banner {
+    display: none;
+  }
+
+  .hero-section .mobile-video-banner {
+    display: block;
   }
 }
 
