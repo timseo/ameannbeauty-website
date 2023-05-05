@@ -1426,10 +1426,9 @@
 .web-video-banner,
 #my-video_html5_api {
   display: block;
+  position: relative;
   width: 100%;
-  height: max-content;
-  object-fit: cover;
-  z-index: -1;
+  height: 56.25%;
 
 }
 
@@ -1449,10 +1448,7 @@
 .mobile-video-banner,
 #my-video-2_html5_api {
   display: none;
-  width: 100%;
-  height: max-content;
-  object-fit: cover;
-  z-index: -1;
+
 
 }
 
@@ -1534,6 +1530,9 @@
    .mobile-video-banner,
    #my-video-2_html5_api {
     display: block;
+    position: relative;
+    width: 100%;
+    height: 56.25%;
   }
 }
 
