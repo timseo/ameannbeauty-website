@@ -1350,7 +1350,13 @@
 .social-icon {
   margin-top: 20px;
 }
+.social-icon-top{
+  width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+}
 .social-icon svg {
+  transform: translateX(-5px);
   width: 40px;
   max-height: 40px;
   cursor: pointer;
@@ -1360,6 +1366,12 @@
   height: 32px;
   cursor: pointer;
   transform: translateX(-12px);
+}
+.tiktok-top{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transform: translate(55px, -36px);
 }
 
 
@@ -1415,6 +1427,11 @@
 
   .footer .copyright p {
     font-size: 11px;
+  }
+  .social-icon{
+    display: flex;
+    justify-content: center;
+    margin-left: 36px;
   }
 }
 
