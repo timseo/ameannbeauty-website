@@ -341,11 +341,11 @@
     margin-top: 30px;
   }
 
-  .buttons .btn {
+ /*  .buttons .btn {
     padding: 8px 30px;
     font-size: 22px;
     border-radius: 5px;
-  }
+  } */
 
   .home-section .items {
     padding: 30px 30px;
@@ -413,9 +413,9 @@
     margin-top: 5vw;
   }
 
-  .buttons .btn {
+/*   .buttons .btn {
     font-size: 4vw;
-  }
+  } */
 
   .home-section .items {
     padding: 50px 30px 0;
@@ -431,9 +431,9 @@
 }
 
 @media (max-width: 500px) {
-  .buttons .btn {
+/*   .buttons .btn {
     padding: 5px 20px;
-  }
+  } */
 
   .home-section .items .content h3 {
     font-size: 5vw;
